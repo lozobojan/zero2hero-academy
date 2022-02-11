@@ -1,0 +1,15 @@
+button{
+    background-color: blue;
+    color: white;
+    margin: 100px;
+}
+#buttonCancel{
+    background-color: red;
+}
+
+.redButton{
+    background-color: red;
+}
+.blueButton{
+    background-color: blue;
+}
