@@ -9,51 +9,60 @@
 </head>
 <body>
     
-    <form action="save_user.php">
-        <label for="">Ime:</label>
-        <br>
-        <input type="text" name="firstName" >
-        <br>
+    <div class="container">
 
-        <label for="">Prezime:</label>
-        <br>
-        <input type="text" name="lastName">
-        <br>
+        <div class="form-wrapper">
 
-        <label for="">Datum rođenja:</label>
-        <br>
-        <input type="date" name="dob">
-        <br>
-
-        <label for="">Godina iskustva:</label>
-        <br>
-        <input type="number" name="experience">
-        <br>
-
-        <label for="">Grad:</label>
-        <br>
-        <select name="" id="" name="city">
-            <option value="">Podgorica</option>
-            <option value="">Budva</option>
-            <option value="">Bar</option>
-            <option value="">Niksic</option>
-        </select>
-        <br>
-        <br>
+            <form action="save_user.php">
+                <label for="">Ime:</label>
+                <br>
+                <input type="text" name="firstName" placeholder="Unesite Vase ime">
+                <br>
         
+                <label for="">Prezime:</label>
+                <br>
+                <input type="text" name="lastName" placeholder="Unesite Vase prezime">
+                <br>
         
-        <input type="checkbox" id="acceptTerms" name="acceptTerms">
-        <label for="acceptTerms">Prihvatam uslove korišćenja</label>
-
-        <br>
-        <br>
-
-        <button class="blueButton" >Registracija</button>
-        <button class="redButton" >Odustani</button>
-        <a href="">test link</a>
+                <label for="">Datum rođenja:</label>
+                <br>
+                <input type="date" name="dob">
+                <br>
         
+                <label for="">Godina iskustva:</label>
+                <br>
+                <input type="number" name="experience" placeholder="Unesite godine iskustva">
+                <br>
+        
+                <label for="">Grad:</label>
+                <br>
+                <select name="" id="" name="city">
+                    <option value="">Podgorica</option>
+                    <option value="">Budva</option>
+                    <option value="">Bar</option>
+                    <option value="">Niksic</option>
+                </select>
+                <br>
+                <br>
+                
+                
+                <input type="checkbox" id="acceptTerms" name="acceptTerms" class="formCheckbox">
+                <label for="acceptTerms">Prihvatam uslove korišćenja</label>
+        
+                <br>
+                <br>
+        
+                <button class="blueButton" >Registracija</button>
+                <button class="redButton" >Odustani</button>
+                
+        
+            </form>
+            
+        </div>
 
-    </form>
+    </div>
+
+    
 
 </body>
 </html>

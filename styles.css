@@ -1,15 +1,62 @@
 button{
     background-color: blue;
     color: white;
-    margin: 100px;
+    /* margin-left: 50px; */
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 150px;
+    border: 0;
 }
 #buttonCancel{
-    background-color: red;
+    background-color: rgb(192, 86, 86);
 }
-
 .redButton{
-    background-color: red;
+    background-color: rgb(192, 86, 86);
+}
+.redButton:hover{
+    /* font-weight: bold;
+    text-transform: uppercase; */
+    background-color: darkred;
 }
 .blueButton{
-    background-color: blue;
+    background-color: rgb(76, 76, 173);
+}
+.blueButton:hover{
+    background-color: rgb(25, 25, 83);
+}
+input{
+    min-height: 30px;
+    min-width: 300px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+select{
+    min-height: 30px;
+    min-width: 300px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form{
+    margin-left: 10%;
+    margin-top: 80px;
+}
+
+.formCheckbox{
+    margin: 0;
+    margin-right: 10px;
+    min-width: 25px;
+}
+
+.form-wrapper{
+    border: 1px dotted black;
+    width: 75%;
 }
