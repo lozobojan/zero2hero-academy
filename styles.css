@@ -57,6 +57,28 @@ form{
 }
 
 .form-wrapper{
-    border: 1px dotted black;
+    border: 1px solid black;
     width: 75%;
 }
+
+.left{
+    background-color: aqua;
+    float: left;
+    width: 50%;
+}
+.right{
+    background-color: coral;
+    float: right;
+    width: 50%;
+}
+
+@media only screen and (max-width: 720px){
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}
+
+#map { height: 360px; }
